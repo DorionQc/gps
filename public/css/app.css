@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);/*.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}*/
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #f2f2f2;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100vh;
+}
+
+#map {
+    height: 60vh;
+}
+.tab_alternate_colors {
+    background-color: #fefefe;
+}
+.tab_alternate_colors li {
+    border: 1px solid #e6e6e6;
+}
+table tbody tr th {
+	text-align: left;
+}
+.tabs-title.is_within a,
+.tabs-title.is_within a:hover,
+.tabs-title.is_within a:focus {
+    color: #0000ff;
+}
